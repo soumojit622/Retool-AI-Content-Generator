@@ -19,11 +19,8 @@ export default function Home() {
           aria-label="Global"
         >
           <div className="flex items-center justify-between">
-            {/* <a className="flex-none text-xl font-semibold dark:text-white" href="#" aria-label="Brand">Brand</a> */}
             <div>
-              {/* <button type="button" className="hs-collapse-toggle size-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-gray-200 text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:border-neutral-700 dark:hover:bg-neutral-700" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation"> */}
               <Image src={"/logo.svg"} alt="logo" width={150} height={150} />
-              {/* </button> */}
             </div>
           </div>
           <div
@@ -59,7 +56,7 @@ export default function Home() {
             >
               <UserPlus className="size-5 text-gray-700 dark:text-gray-300" />{" "}
               {/* 👤 Lucide UserPlus Icon */}
-              <span>CreatorAI Membership - Join Now</span>
+              <span>Retool Membership - Join Now</span>
               {/* Badge with Arrow Icon */}
               <span
                 className="py-1.5 px-3 inline-flex justify-center items-center gap-x-2 rounded-full 
@@ -85,9 +82,9 @@ export default function Home() {
 
           <div className="mt-8 max-w-2xl text-center mx-auto">
             <h1 className="relative inline-block font-extrabold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-              AI Content&nbsp;
+              AI-Powered&nbsp;
               <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 transition-all duration-300 ease-in-out">
-                Generator
+                Content Creator
               </span>
               {/* Glowing Effect */}
               <span className="absolute inset-0 -z-10 blur-xl opacity-40 bg-yellow-500/30 rounded-lg group-hover:opacity-70 transition-all duration-300"></span>
@@ -96,11 +93,10 @@ export default function Home() {
 
           <div className="mt-5 max-w-3xl text-center mx-auto">
             <p className="text-lg text-gray-600 dark:text-neutral-400">
-              Revolutionize your content creation with our AI-powered app,
-              delivering engaging and high-quality text in seconds.
+              Transform your content creation process with our AI-driven platform,
+              generating captivating and high-quality text effortlessly.
             </p>
           </div>
-
           <div className="mt-8 flex justify-center">
             <a
               className="inline-flex items-center gap-x-3 text-center bg-gradient-to-br from-yellow-500 to-yellow-700 
