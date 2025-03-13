@@ -82,12 +82,6 @@ Built with **Next.js, TypeScript, and Drizzle ORM**, making it **easy to extend 
 
 ---
 
-## 📜 License  
-
-This project is **open-source 🆓** and licensed under the **MIT License 📄**.  
-
----
-
 ## 💬 **Contributing 🌍**
 
 We welcome all contributions! Here's how you can contribute:
